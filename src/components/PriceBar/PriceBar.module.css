@@ -1,0 +1,109 @@
+.priceBar {
+   width: 300px;
+   height: 500px;
+   background: #fff;
+   border-radius: 15px;
+   position: relative;
+}
+
+.priceBar__wrap_active {
+   padding: 0 25px 20px 25px;
+   position: absolute;
+   width: 300px;
+   height: auto;
+   background: rgba(255, 255, 255, 0.768627451);
+   overflow: hidden;
+   bottom: 10px;
+}
+
+.priceBar__wrap_default {
+   position: relative;
+   padding: 0 25px;
+}
+
+.priceBar__img {
+   width: 100%;
+   height: 300px;
+   margin-bottom: 10px;
+}
+
+.priceBar__img img {
+   border-radius: 15px;
+   width: 300px;
+   height: 300px;
+   position: absolute;
+}
+
+.priceBar__info {
+   line-height: 1.5;
+   background: #fff;
+   height: 105px;
+   margin-bottom: 15px;
+   overflow: hidden;
+}
+
+.priceBar__info_name {
+   font-size: 20px;
+   font-weight: 600;
+   opacity: 0.8;
+}
+
+.priceBar__info_composition {
+   opacity: 0.6;
+   font-size: 16px;
+   max-height: 70px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   display: -webkit-box;
+}
+
+.priceBar__info_active {
+   line-height: 1.5;
+   padding-top: 15px;
+   border-radius: 15px;
+   min-height: 87px;
+   margin-bottom: 15px;
+}
+
+.priceBar__info_active_composition {
+   opacity: 0.6;
+   font-size: 16px;
+}
+
+.priceBar__add {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+}
+
+.priceBar__add_button button {
+   background: transparent;
+   border: 1px solid red;
+   font-size: 16px;
+   font-weight: 600;
+   color: red;
+   padding: 10px 20px;
+   border-radius: 30px;
+   cursor: pointer;
+   -webkit-transition: 0.2s;
+   transition: 0.2s;
+}
+
+.priceBar__add_button button:hover {
+   background: red;
+   color: #fff;
+}
+
+.priceBar__add_price {
+   font-size: 18px;
+   font-weight: 600;
+   opacity: 0.8;
+}

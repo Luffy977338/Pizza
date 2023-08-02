@@ -1,0 +1,90 @@
+
+
+.options__size {
+   padding: 8px 0;
+   background: #dbdbdb;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: space-evenly;
+       -ms-flex-pack: space-evenly;
+           justify-content: space-evenly;
+   border-radius: 25px;
+   margin: 15px 0;
+}
+.options__size_button {
+   padding: 5px 10px;
+   background: transparent;
+   -webkit-transition: 0.2s;
+   transition: 0.2s;
+   border-radius: 15px;
+   cursor: pointer;
+}
+.options__size_button:hover {
+   background: #b1b0b0;
+}
+.options__size_button_active {
+   padding: 5px 20px;
+   -webkit-transition: 0.2s;
+   transition: 0.2s;
+   border-radius: 15px;
+   cursor: pointer;
+   background: #b1b0b0;
+}
+.options__type {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   margin-bottom: 30px;
+   padding: 8px 15px;
+   background: #dbdbdb;
+   border-radius: 25px;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   cursor: pointer;
+   -webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+   font-size: 18px;
+}
+.options__type_choice {
+   position: absolute;
+   padding: 20px 15px;
+   background: #6a6a6a;
+   border-radius: 15px;
+   bottom: 150px;
+   margin-left: 18px;
+   font-size: 24px;
+   color: #fff;
+   -webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+}
+.options__type_choice div {
+   padding: 5px 15px;
+   border-radius: 10px;
+   -webkit-transition: 0.2s;
+   transition: 0.2s;
+}
+.options__type_choice div:hover {
+   background: #444444;
+}
+.options__type_choice hr {
+   margin: 10px 0;
+   border: none;
+   border-top: 1px solid rgb(255, 255, 255);
+}
+.options__type svg {
+   width: 25px;
+   height: 25px;
+}
+.options__svg {
+   -webkit-transform: translateY(5px);
+           transform: translateY(5px);
+}

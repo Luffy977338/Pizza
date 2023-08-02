@@ -1,0 +1,10 @@
+{
+   "editor.tabSize": 3,
+   "[dockercompose]": {
+      "editor.tabSize": 3,
+      "editor.detectIndentation": false
+   },
+   "editor.fontSize": 18,
+   "editor.indentSize": "tabSize",
+   "editor.detectIndentation": false,
+}

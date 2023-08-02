@@ -1,0 +1,48 @@
+:root {
+   --topHeader-background: #222222;
+   --botHeader-background: #101010;
+}
+
+* {
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+}
+
+img {
+   -webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+}
+
+body {
+   font-family: "Helvatica", Arial, sans-serif;
+   background: #e6e6f3;
+}
+
+main {
+   margin: 100px 0;
+}
+main .title {
+   font-size: 52px;
+   margin: 0 0 50px 250px;
+}
+main .wrap_center {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+}
+main .wrap {
+   display: -ms-grid;
+   display: grid;
+   -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 15px;
+}

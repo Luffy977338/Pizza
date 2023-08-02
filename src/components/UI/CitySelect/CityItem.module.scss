@@ -1,0 +1,12 @@
+.cityItem {
+   color: #000;
+   font-size: 16px;
+   cursor: pointer;
+   max-width: 150px;
+   padding: 0 10px;
+   transition: 0.1s;
+   border-radius: 8px;
+   &:hover {
+      background: #c7c6c6;
+   }
+}
